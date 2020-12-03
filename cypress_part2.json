@@ -1,0 +1,17 @@
+{
+  "baseUrl": "http://demo.applitools.com",
+  "fixturesFolder": false,
+  "video": false,
+  "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "screenshotsFolder": "TestReport/assets",
+  "env": {
+    "APP_NAME": "/tlcHackathonDev.html",
+    "VERSION": "Dev-branch version",
+    "PRODUCT_DETAILS_URL": "/tlcHackathonProductDetailsDev.html?id=1"
+  }
+}

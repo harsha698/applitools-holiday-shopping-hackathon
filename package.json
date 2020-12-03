@@ -1,0 +1,27 @@
+{
+  "name": "applitools-holiday-shopping-hackathon",
+  "version": "1.0.0",
+  "description": "Project to test a retail application, AppliFashion",
+  "main": "index.js",
+  "scripts": {
+    "clean:reports": "rm -rf mochawesome-report/",
+    "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-tests-report.json",
+    "create:html:report": "marge --reportDir TestReport cypress-tests-report.json",
+    "generate:html:report": "npm run merge:reports && npm run create:html:report",
+    "test:part1": "npm run clean:reports && cypress run --config-file cypress_part1.json",
+    "test:part2": "npm run clean:reports && cypress run --config-file cypress_part2.json",
+    "test:part3": "npm run clean:reports && cypress run --config-file cypress_part3.json",
+    "cy:open": "npx cypress open --config-file cypress_part1.json"
+  },
+  "keywords": [],
+  "author": "Harsha Chandnani",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.15.5",
+    "cypress": "^5.6.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0"
+  }
+}

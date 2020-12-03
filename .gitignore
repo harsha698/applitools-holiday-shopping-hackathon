@@ -1,0 +1,9 @@
+node_modules
+mochawesome-report
+**/cypress/videos
+**/cypress/screenshots
+.DS_Store
+.idea
+TestReport
+Reports
+cypress-tests-report.json
