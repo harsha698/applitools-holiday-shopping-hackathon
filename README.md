@@ -70,15 +70,15 @@ To get started, please do the following:
 
 #### Part 1
 
-Report can be found at: [Applitools Dashboard](https://eyes.applitools.com/app/test-results/00000251795295247475/?accountId=VwI49rexjkKfa1Yh-t9yNw~~)
+Report can be found at: [Part 1 Applitools Dashboard](https://eyes.applitools.com/app/test-results/00000251795295247475/?accountId=VwI49rexjkKfa1Yh-t9yNw~~)
 
 #### Part 2
 
-RCA can be found in [Applitools Dashboard](https://eyes.applitools.com/app/test-results/00000251795286789925/00000251795286784557/steps/1/edit?accountId=VwI49rexjkKfa1Yh-t9yNw~~&diff=eyJub2RlMSI6eyJ0b3AiOjY5MywibGVmdCI6MTUsIndpZHRoIjo1NzAsImhlaWdodCI6MTA1fSwibm9kZTFoYXNoIjotMTk0NjAxNDQ5Mywibm9kZTIiOnsidG9wIjo2NTcsImxlZnQiOjAsIndpZHRoIjo2MDAsImhlaWdodCI6MTEyN30sIm5vZGUyaGFzaCI6LTE4NTI3NDU1MTF9&mode=step-editor)
+RCA can be found in [RCA Applitools Dashboard](https://eyes.applitools.com/app/test-results/00000251795286789925/00000251795286784557/steps/1/edit?accountId=VwI49rexjkKfa1Yh-t9yNw~~&diff=eyJub2RlMSI6eyJ0b3AiOjY5MywibGVmdCI6MTUsIndpZHRoIjo1NzAsImhlaWdodCI6MTA1fSwibm9kZTFoYXNoIjotMTk0NjAxNDQ5Mywibm9kZTIiOnsidG9wIjo2NTcsImxlZnQiOjAsIndpZHRoIjo2MDAsImhlaWdodCI6MTEyN30sIm5vZGUyaGFzaCI6LTE4NTI3NDU1MTF9&mode=step-editor)
 
 #### Part 3
 
-Report can be found in [Applitools Dashboard](https://eyes.applitools.com/app/test-results/00000251795286408490/?accountId=VwI49rexjkKfa1Yh-t9yNw~~)
+Report can be found in [Part 3 Applitools Dashboard](https://eyes.applitools.com/app/test-results/00000251795286408490/?accountId=VwI49rexjkKfa1Yh-t9yNw~~)
 
 ## Author
 
