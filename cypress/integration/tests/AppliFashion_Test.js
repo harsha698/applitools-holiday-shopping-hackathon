@@ -6,7 +6,6 @@ describe(`AppliFashion Tests for ${Cypress.env('VERSION')}`, () => {
         cy.eyesOpen({
             testName: 'Test 1',
             stepName: 'main page',
-            // matchLevel: 'Exact'
         });
         cy.visit(Cypress.env('APP_NAME'));
         cy.eyesCheckWindow({tag: 'Main Page', target: 'window', fully: true});
