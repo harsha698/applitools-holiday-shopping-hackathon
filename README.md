@@ -28,14 +28,11 @@ To get started, please do the following:
 
 3. `npm i` to install all the project dependencies
 
-4. Please export your `APPLITOOLS_API_KEY` as `export APPLITOOLS_API_KEY = <Your_key>` for Mac and `set
- APPLITOOLS_API_KEY = <Your_key>` for Windows. 
+4. Please export your `APPLITOOLS_API_KEY` as `export APPLITOOLS_API_KEY = <Your_key>` for Mac and `set APPLITOOLS_API_KEY = <Your_key>` for Windows. 
 
-5. For testing V1, Dev branch and Final production versions of the AppliFashion application, I have created 3
- separate cypress.json files as `cypress_part1.json`, `cypress_part2.json`, `cypress_part3.json` respectively.
+5. For testing V1 production, Dev-branch and Final production versions of the AppliFashion application, I have created 3 separate cypress.json files as `cypress_part1.json`, `cypress_part2.json`, `cypress_part3.json` respectively.
 
-6. To include all the three tests inside a batch - Holiday Shopping, there is only 1 test as `AppliFashion_Test.js
-` inside integration folder with 3 separate `it` blocks.
+6. To include all the three tests inside a batch - Holiday Shopping, there is only 1 test as `AppliFashion_Test.js` inside integration folder with 3 separate `it` blocks.
 
 7. To run Part 1 of the Applitools test, execute `npm run test:part1`.
 
@@ -43,11 +40,9 @@ To get started, please do the following:
 
 9. To run Part 3 of the Applitools test, execute `npm run test:part3`.
 
-10. To generate mochawesome reports for Part 1 or Part 2 or Part 3, execute `npm run generate:html:report` after
- executing their respective npm run commands as mentioned in Steps # 6, 7, 8.
+10. To generate mochawesome reports for Part 1 or Part 2 or Part 3, execute `npm run generate:html:report` after executing their respective npm run commands as mentioned in Steps # 7, 8, 9.
  
-11. Reports can be made visible under `TestReport` folder that will get created post running `npm run generate:html
-:report` command.
+11. Reports can be made visible under `TestReport` folder that will get created post running `npm run generate:html:report` command.
 
 12. Part 1 and Part 2 are executed on Chrome browser (desktop size - 1200 * 800) only.
 
